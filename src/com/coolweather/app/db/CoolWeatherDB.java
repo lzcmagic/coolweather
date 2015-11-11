@@ -38,7 +38,7 @@ public class CoolWeatherDB {
 	}
 
 	/**
-	 * 获取CoolWeatherDB的实例。
+	 * 获取CoolWeatherDB的实例。单例模式
 	 */
 	public synchronized static CoolWeatherDB getInstance(Context context) {
 		if (coolWeatherDB == null) {
